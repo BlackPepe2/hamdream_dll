@@ -1,0 +1,571 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hamdream_dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MD /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "HAMDREAM_DLL_EXPORTS" /Fp"Release/hamdream_dll.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\sound\Sound.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\ChanEstTime.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\ChannelEstimation.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\IdealChannelEstimation.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\TimeLinear.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\TimeWiener.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\DABMOT.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\DataDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\MOTSlideShow.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\picpool.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\FAC\FAC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\BlockInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\SymbolInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\MatlibSigProToolbox.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\MatlibStdToolbox.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\BitInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\ChannelCode.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\ConvEncoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\EnergyDispersal.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\Metric.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\MLC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\QAMMapping.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\TrellisUpdateMMX.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\TrellisUpdateSSE2.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\ViterbiDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\CellMappingTable.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\OFDMCellMapping.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\resample\Resample.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sourcedecoders\AudioSourceDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\FreqSyncAcq.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\SyncUsingPil.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\TimeSync.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\TimeSyncTrack.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\bsr.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\CRC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\Data.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\DrmReceiver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\DRMSignalIO.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\DrmTransmitter.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\fir.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\InputResample.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\MSCMultiplexer.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\OFDM.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\Parameter.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\hamdrm.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP7.tmp" 
+Creating temporary file "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP8.tmp" with contents
+[
+kernel32.lib user32.lib winmm.lib libfftw.lib shell32.lib callsign.lib poolid.lib /nologo /dll /incremental:no /pdb:"Release/hamdrm.pdb" /machine:I386 /def:".\hamdrm.def" /out:"Release/hamdrm.dll" /implib:"Release/hamdrm.lib" /libpath:"common/libs/" 
+".\Release\Sound.obj"
+".\Release\ChanEstTime.obj"
+".\Release\ChannelEstimation.obj"
+".\Release\IdealChannelEstimation.obj"
+".\Release\TimeLinear.obj"
+".\Release\TimeWiener.obj"
+".\Release\DABMOT.obj"
+".\Release\DataDecoder.obj"
+".\Release\MOTSlideShow.obj"
+".\Release\picpool.obj"
+".\Release\FAC.obj"
+".\Release\BlockInterleaver.obj"
+".\Release\SymbolInterleaver.obj"
+".\Release\MatlibSigProToolbox.obj"
+".\Release\MatlibStdToolbox.obj"
+".\Release\BitInterleaver.obj"
+".\Release\ChannelCode.obj"
+".\Release\ConvEncoder.obj"
+".\Release\EnergyDispersal.obj"
+".\Release\Metric.obj"
+".\Release\MLC.obj"
+".\Release\QAMMapping.obj"
+".\Release\TrellisUpdateMMX.obj"
+".\Release\TrellisUpdateSSE2.obj"
+".\Release\ViterbiDecoder.obj"
+".\Release\CellMappingTable.obj"
+".\Release\OFDMCellMapping.obj"
+".\Release\Resample.obj"
+".\Release\AudioSourceDecoder.obj"
+".\Release\FreqSyncAcq.obj"
+".\Release\SyncUsingPil.obj"
+".\Release\TimeSync.obj"
+".\Release\TimeSyncTrack.obj"
+".\Release\bsr.obj"
+".\Release\CRC.obj"
+".\Release\Data.obj"
+".\Release\DrmReceiver.obj"
+".\Release\DRMSignalIO.obj"
+".\Release\DrmTransmitter.obj"
+".\Release\fir.obj"
+".\Release\InputResample.obj"
+".\Release\MSCMultiplexer.obj"
+".\Release\OFDM.obj"
+".\Release\Parameter.obj"
+".\Release\hamdrm.obj"
+]
+Creating command line "link.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling...
+Sound.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+ChanEstTime.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ChannelEstimation.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+IdealChannelEstimation.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeLinear.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeWiener.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DABMOT.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DataDecoder.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MOTSlideShow.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+picpool.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+FAC.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\FAC\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\FAC\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\FAC\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\FAC\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+BlockInterleaver.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+SymbolInterleaver.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\interleaver\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MatlibSigProToolbox.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MatlibStdToolbox.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+BitInterleaver.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+ChannelCode.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ConvEncoder.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\ConvEncoder.cpp(38) : warning C4101: 'iCurPunctPattern' : unreferenced local variable
+EnergyDispersal.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+Metric.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MLC.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+QAMMapping.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TrellisUpdateMMX.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TrellisUpdateSSE2.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ViterbiDecoder.cpp
+CellMappingTable.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+OFDMCellMapping.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\ofdmcellmapping\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+Resample.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+AudioSourceDecoder.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sourcedecoders\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sourcedecoders\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sourcedecoders\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sourcedecoders\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+FreqSyncAcq.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+SyncUsingPil.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeSync.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeSyncTrack.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+bsr.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+CRC.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+Data.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DrmReceiver.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DRMSignalIO.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DrmTransmitter.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+fir.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+InputResample.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MSCMultiplexer.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+OFDM.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+Parameter.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+hamdrm.cpp
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : warning C4275: non dll-interface class 'std::_Complex_base<float>' used as base for dll-interface class 'std::complex<float>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(203) : see declaration of 'complex<float>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : warning C4275: non dll-interface class 'std::_Complex_base<double>' used as base for dll-interface class 'std::complex<double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(216) : see declaration of 'complex<double>'
+C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : warning C4275: non dll-interface class 'std::_Complex_base<long double>' used as base for dll-interface class 'std::complex<long double>'
+        C:\Programme\Microsoft Visual Studio\VC98\INCLUDE\complex(229) : see declaration of 'complex<long double>'
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\hamdream_dll\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+Linking...
+   Creating library Release/hamdrm.lib and object Release/hamdrm.exp
+LINK : warning LNK4098: defaultlib "LIBC" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+hamdrm.dll - 0 error(s), 204 warning(s)
+</pre>
+</body>
+</html>
